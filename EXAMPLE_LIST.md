@@ -1,4 +1,4 @@
-# List of correct branch
+# List of example app
 ### This will guide you to the correct branch!
 
 
