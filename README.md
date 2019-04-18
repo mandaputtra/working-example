@@ -6,4 +6,5 @@ Contains working example code/program that I make on https://mandaputtra.github.
 
 ### Example list
 
+1. Easy que with node-resque!
 
