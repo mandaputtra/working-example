@@ -6,8 +6,8 @@ Contains working example code/program that I make on https://mandaputtra.github.
 
 ### Example list
 
-1. [Easy queue with node-resque!](https://github.com/mandaputtra/working-example/tree/master/simple-node-resque)
-2. [Demo on web performance](https://github.com/mandaputtra/working-example/tree/master/web-performance-demo)
+1. [Easy queue with node-resque!](./simple_node_resque)
+2. [Websocket Demo Pooling](./websocket-demo-pollin)
 
 ### Note
 

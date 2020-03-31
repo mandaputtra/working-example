@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dump Polling App</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./socket.js"></script>
+  <script src="./index.js"></script>
+</head>
+<body>
+  <header class="wrapper">
+    <h1 class="title">Blame Pool</h1>
+    <h4 class="subtitle">Choose your village spokesman to face Meme King</h4>
+  </header>
+
+  <div class="wrapper vote">
+    <div class="vote-person">
+      <p class="vote-person-name">
+        Jokawi
+      </p>
+      <p class="vote-person-number" id="jokawi">0</p>
+      <button id="vote" data-vote="jokawi"> vote </button>
+    </div>
+  
+    <div class="vote-person">
+      <p class="vote-person-name">
+        Kobami
+      </p>
+      <p class="vote-person-number" id="kobami">0</p>
+      <button id="vote" data-vote="kobami"> vote </button>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <p>Your ID</p>
+    <div id="userid"></div>
+  </div>
+</body>
+</html>

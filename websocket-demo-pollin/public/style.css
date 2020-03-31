@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;;
+}
+
+:root {
+  --super-bright-green: #e4f9f5;
+  --is-that-green: #30e3ca;
+  --slightly-dark-green: #11999e;
+  --dark-green: #40514e;
+}
+
+body {
+  margin: 0;
+  font-family: monospace;
+  font-size: large;
+  background: var(--super-bright-green);
+}
+
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0.8em;
+  text-align: center;
+}
+
+.title {
+  color: var(--dark-green);
+}
+
+.subtitle {
+  color: var(--slightly-dark-green);
+}
+
+.vote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0em 3em;
+  margin-bottom: 2em;
+}
+
+.vote-person-name {
+  font-weight: bold;
+}
+
+.vote-person-number {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+button {
+  background-color: var(--is-that-green);
+  border: none;
+  color: var(--dark-green);
+  width: 5.5em;
+  height: 1.8em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: grey;
+}
+
+#userid {
+  font-weight: bold;
+}
