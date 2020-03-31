@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "nodemonConfig": {
-    "ignore": ["node_modules/*"]
+    "ignore": [
+      "node_modules/*"
+    ]
   },
   "dependencies": {
     "fastify": "^2.13.0",
